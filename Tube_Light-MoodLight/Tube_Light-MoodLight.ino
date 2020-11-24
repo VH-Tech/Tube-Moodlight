@@ -114,9 +114,6 @@ WS2812FX ws2812fx = WS2812FX(NUM_LEDS, PIN, NEO_RGB + NEO_KHZ800);
 //   NEO_GRB     Pixels are wired for GRB bitstream (most NeoPixel products)
 //   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
 
-
-//const char* ssid = "Suresh";
-//const char* password = "mvls$1488";
 ESP8266WebServer server(port);
 
 byte R = 255;
